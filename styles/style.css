@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&family=Raleway:ital,wght@0,700;1,400&display=swap");
+body {
+  font-family: "Raleway", sans-serif;
+  font-family: "Open Sans", sans-serif;
+}
+
+.fs-7 {
+  font-size: 15px;
+}
+
+.color-text {
+  color: #070439;
+}
+
+.color-p {
+  color: #585989;
+}
+
+.card-border {
+  border-color: white;
+}
+
+@media (min-width: 375px) {
+  .card-border {
+    width: 100%;
+  }
+}
+
+@media (min-width: 768px) {
+  .card-border {
+    width: 75%;
+  }
+}
+
+.fx-col {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@media (min-width: 375px) {
+  .fx-col {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+@media (min-width: 768px) {
+  .fx-col {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+}
+
+@media (min-width: 375px) {
+  .fx-col .width-email {
+    width: 100%;
+  }
+}
+
+@media (min-width: 768px) {
+  .fx-col .width-email {
+    width: 50%;
+  }
+}
+
+@media (min-width: 375px) {
+  .fx-col .width-button {
+    width: 100%;
+  }
+}
+
+@media (min-width: 768px) {
+  .fx-col .width-button {
+    width: 50%;
+  }
+}
+
+#productive {
+  background: url("../images/bg-curve-desktop.svg") no-repeat center/cover;
+  height: 100%;
+}
+
+@media (min-width: 375px) {
+  #productive {
+    background: url("../images/bg-curve-mobile.svg") no-repeat center/cover;
+  }
+}
+
+#productive .img-avatar {
+  height: 50px;
+  width: 50px;
+}
+
+#productive .img-avatar img {
+  border-radius: 50px;
+}
+
+#email {
+  background: #585989;
+}
+
+@media (min-width: 375px) {
+  #email .width-100 {
+    width: 100%;
+  }
+}
+
+@media (min-width: 768px) {
+  #email .width-100 {
+    width: 75%;
+  }
+}
+
+@media (min-width: 375px) {
+  #email .width-75 {
+    width: 100%;
+  }
+}
+
+@media (min-width: 768px) {
+  #email .width-75 {
+    width: 50%;
+  }
+}
+
+#footer {
+  background: #070439;
+}
+
+#footer svg {
+  fill: #fff;
+  color: #fff;
+}
+/*# sourceMappingURL=style.css.map */

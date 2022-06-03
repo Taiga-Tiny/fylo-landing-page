@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Fylo landing page with two column layout</title>
+    <!-- Bootstrap v5.2 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark py-5 px-3">
+      <div class="container">
+        <a class="navbar-brand mb-0 h1 text-primary" href="#"
+          ><img src="images/logo.svg" alt="huddle" style="height: 24px"
+        /></a>
+
+        <ul class="navbar-nav d-flex flex-row mb-lg-0">
+          <li class="nav-item me-5">
+            <a class="nav-link color-text" aria-current="page" href="#"
+              >Features</a
+            >
+          </li>
+          <li class="nav-item me-5">
+            <a class="nav-link color-text" href="#">Team</a>
+          </li>
+          <li class="nav-item me-5">
+            <a class="nav-link color-text" href="#">Sign In</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Intro -->
+    <section id="intro" class="pt-4 pt-md-11 py-5">
+      <div class="container mb-5 mt-2">
+        <div class="row align-items-center">
+          <div class="col-12 col-md-5 col-lg-6 order-md-2 py-5">
+            <img
+              src="images/illustration-1.svg"
+              alt=""
+              class="img-fluid mw-md-150 mw-lg-130 mb-6 mb-md-0"
+            />
+          </div>
+          <div class="col-12 col-md-7 col-lg-6 order-md-1 py-1">
+            <h2
+              class="display-3 text-center text-md-start py-3 fs-2 text fw-bold color-text"
+            >
+              All your files in one secure location, accessible anywhere.
+            </h2>
+            <p class="lead text-center text-md-start mb-4 fs-5 text">
+              Fylo stores your most important files in one secure location.
+              Access them wherever you need, share and collaborate with friends,
+              family, and co-workers.
+            </p>
+            <form class="fx-col">
+              <input
+                class="form-control me-2 width-email mb-2"
+                type="email"
+                placeholder="Enter your email..."
+              />
+              <button class="btn btn-primary width-75 mb-2" type="submit">
+                Get Started
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Productive -->
+
+    <section id="productive" class="pt-4 pt-md-11 py-5">
+      <div class="container py-5 mt-5">
+        <div class="row align-items-center">
+          <div class="col-12 col-md-5 col-lg-6 order-md-2 py-5">
+            <img
+              src="images/illustration-2.svg"
+              alt=""
+              class="img-fluid mw-md-150 mw-lg-130 mb-6 mb-md-0"
+            />
+          </div>
+          <div class="col-12 col-md-7 col-lg-6 order-md-1 py-1">
+            <h2
+              class="display-3 text-center text-md-start py-3 fs-2 text fw-bold color-text"
+            >
+              Stay productive, wherever you are
+            </h2>
+            <p class="lead text-center text-md-start mb-4 fs-5 text">
+              Never let location be an issue when accessing your files. Fylo has
+              you covered for all of your file storage needs.
+            </p>
+            <p class="lead text-center text-md-start mb-4 fs-5 text">
+              Securely share files and folders with friends, family and
+              colleagues for live collaboration. No email attachments required!
+            </p>
+            <a
+              href=""
+              class="lead text-center text-md-start text-success text-underline fylo-text"
+            >
+              See how Fylo works
+            </a>
+
+            <div class="card my-3 card-border">
+              <div class="card-body">
+                <p class="card-text">
+                  <span class="fw-bold fs-1 text">"</span>
+                  Fylo has improved our team productivity by an order of
+                  magnitude. Since making the switch our team has become a
+                  well-oiled collaboration machine.
+                </p>
+                <div class="d-flex flex">
+                  <div class="img-avatar mr-5">
+                    <img
+                      src="./images/avatar-testimonial.jpg"
+                      alt="avatar"
+                      class="img-fluid"
+                    />
+                  </div>
+                  <div class="text-block px-2">
+                    <h6 class="fs-6 text fw-bold">Kyle Burton</h6>
+                    <p class="fs-7 text">Founder & Ceo, Huddle</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="email" class="px-5 py-3 pt-md-11">
+      <div class="container py-5 my-3">
+        <div class="row align-items-center">
+          <div class="col-12 col-md-7 col-lg-6 order-md-1 py-1">
+            <h2
+              class="display-3 text-center text-md-start py-3 fs-2 text text-white fw-bold"
+            >
+              Get early access today
+            </h2>
+            <p class="lead text-start text-md-start text-white mb-4 fs-6 text">
+              It only takes a minute to sign up and our free starter tier is
+              extremely generous. If you have any questions, our support team
+              would be happy to help you.
+            </p>
+          </div>
+
+          <div class="col-12 col-md-5 col-lg-6 order-md-2">
+            <div class="d-flex flex-column mb-3">
+              <form class="d-flex" role="search">
+                <input
+                  class="form-control width-100 py-2"
+                  type="email"
+                  placeholder="Enter your email..."
+                  aria-label="Search"
+                />
+              </form>
+              <button class="btn btn-primary width-75 mt-2 py-2" type="submit">
+                Get Started For Free
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer id="footer" class="py-5 py-md-5">
+      <div class="container py-5">
+        <div class="row py-4">
+          <div class="col-12 col-md-4 col-lg-3">
+            <!-- Brand -->
+            <!-- <h4 class="footer-brand img-fluid mb-2 fw-bold text-white">TinyKit.</h4> -->
+            <svg
+              class="ooter-brand img-fluid mb-3"
+              width="166"
+              height="49"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+            >
+              <defs><path id="a" d="M.014.03h93.96v48.29H.015z" /></defs>
+              <g fill="none" fill-rule="evenodd">
+                <path
+                  d="M0 14.13v.123l27.95 13.13L56 14.209v-.033L27.95 1 0 14.13zm10.077.062L27.95 5.795l17.877 8.397-17.877 8.396-17.874-8.396zM27.95 32.483L0 19.55v4.784l27.95 12.964L56 24.289v-4.784L27.95 32.483zm0 9.703L0 29.25v4.783L27.95 47 56 33.99v-4.784l-28.05 12.98z"
+                  fill="#BDBAFA"
+                />
+                <g transform="translate(72)">
+                  <mask id="b" fill="#fff"><use xlink:href="#a" /></mask>
+                  <path
+                    d="M87.56 24.152a8.1 8.1 0 0 0-2.161-5.573 7.259 7.259 0 0 0-2.34-1.673 6.864 6.864 0 0 0-2.85-.601c-1.01 0-1.961.2-2.852.601a7.257 7.257 0 0 0-2.34 1.673 8.102 8.102 0 0 0-2.16 5.574 8.102 8.102 0 0 0 2.16 5.573 7.257 7.257 0 0 0 2.34 1.672 6.864 6.864 0 0 0 2.851.602c1.01 0 1.96-.2 2.852-.602a7.259 7.259 0 0 0 2.339-1.672 8.1 8.1 0 0 0 2.16-5.574zm6.415 0c0 1.932-.357 3.723-1.07 5.373a13.098 13.098 0 0 1-2.94 4.28c-1.247 1.205-2.71 2.156-4.388 2.854-1.678.699-3.468 1.048-5.369 1.048-1.9 0-3.683-.349-5.346-1.048a13.863 13.863 0 0 1-4.366-2.876 13.351 13.351 0 0 1-2.94-4.302c-.713-1.65-1.07-3.426-1.07-5.329 0-1.873.364-3.634 1.092-5.284a13.92 13.92 0 0 1 2.962-4.325 13.671 13.671 0 0 1 4.367-2.898 13.552 13.552 0 0 1 5.301-1.048c1.901 0 3.69.35 5.369 1.048 1.678.698 3.14 1.65 4.388 2.854 1.248 1.204 2.228 2.638 2.94 4.302.713 1.665 1.07 3.449 1.07 5.351zM64.258 36.905a8.6 8.6 0 0 1-1.715.58c-.638.148-1.3.222-1.982.222a9.84 9.84 0 0 1-2.74-.379 6.003 6.003 0 0 1-2.295-1.226c-.653-.565-1.173-1.3-1.56-2.207-.385-.907-.578-2-.578-3.277V.029h6.549v29.474c0 1.07.215 1.806.646 2.207.43.401.943.602 1.537.602.742 0 1.455-.223 2.138-.669v5.262zM50.492 11.22L38.908 41.854c-.861 2.289-1.99 3.939-3.386 4.95-1.396 1.01-3.06 1.515-4.99 1.515-.297 0-.623-.022-.98-.066a7.352 7.352 0 0 1-1.025-.201l-2.138-5.975a8.486 8.486 0 0 0 1.56.557c.534.134 1.039.201 1.514.201 1.01 0 1.93-.23 2.762-.691.832-.46 1.47-1.315 1.916-2.564l.891-2.586-9.935-25.773h6.995l5.925 16.588 5.57-16.588h6.905zM23.538 7.342H6.786v8.294h16.529v5.618H6.785v15.784H.015V1.412h23.524v5.93z"
+                    fill="#fff"
+                    mask="url(#b)"
+                  />
+                </g>
+              </g>
+            </svg>
+            <!-- Text -->
+            <ul
+              class="list-unstyled text-white text-opacity-75 mb-5 mb-md-5 mb-lg-0"
+            >
+              <li class="mb-3">
+                <a href="#!" class="text-reset text-decoration-none fs-6 text">
+                  <img src="images/icon-phone.svg" alt="phone" class="mx-2" />
+                  Phone: +1-543-123-4567
+                </a>
+              </li>
+              <li class="mb-3">
+                <a href="#!" class="text-reset text-decoration-none fs-6 text">
+                  <img src="images/icon-email.svg" alt="email" class="mx-2" />
+                  example@fylo.com
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-12 col-md-4 col-lg-3">
+            <!-- List -->
+            <ul
+              class="list-unstyled text-white text-opacity-75 mb-5 mb-md-5 mb-lg-0"
+            >
+              <li class="mb-3">
+                <a href="#!" class="text-reset text-decoration-none">
+                  About Us
+                </a>
+              </li>
+              <li class="mb-3">
+                <a href="#!" class="text-reset text-decoration-none"> Jobs </a>
+              </li>
+              <li class="mb-3">
+                <a href="#!" class="text-reset text-decoration-none"> Press </a>
+              </li>
+              <li class="mb-3">
+                <a href="#!" class="text-reset text-decoration-none"> Blog </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-12 col-md-4 col-lg-3">
+            <!-- List -->
+            <ul
+              class="list-unstyled text-white text-opacity-75 mb-5 mb-md-5 mb-lg-0"
+            >
+              <li class="mb-3">
+                <a href="#!" class="text-reset text-decoration-none">
+                  Contact Us
+                </a>
+              </li>
+              <li class="mb-3">
+                <a href="#!" class="text-reset text-decoration-none"> Terms </a>
+              </li>
+              <li class="mb-3">
+                <a href="#!" class="text-reset text-decoration-none">
+                  Privacy
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-12 col-md-4 col-lg-3">
+            <!-- List -->
+            <ul class="list-unstyled list-inline list-social mb-5 mb-md-0">
+              <li class="list-inline-item list-social-item me-3">
+                <a href="#!" class="text-white text-opacity-75">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="feather feather-facebook"
+                  >
+                    <path
+                      d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"
+                    ></path>
+                  </svg>
+                </a>
+              </li>
+              <li class="list-inline-item list-social-item me-3">
+                <a href="#!" class="text-white text-opacity-75">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="feather feather-twitter"
+                  >
+                    <path
+                      d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"
+                    ></path>
+                  </svg>
+                </a>
+              </li>
+              <li class="list-inline-item list-social-item me-3">
+                <a href="#!" class="text-white text-opacity-75">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="feather feather-instagram"
+                  >
+                    <rect
+                      x="2"
+                      y="2"
+                      width="20"
+                      height="20"
+                      rx="5"
+                      ry="5"
+                    ></rect>
+                    <path
+                      d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"
+                    ></path>
+                    <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+    <!-- FEATHER ICONS -->
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <script>
+      feather.replace();
+    </script>
+  </body>
+</html>

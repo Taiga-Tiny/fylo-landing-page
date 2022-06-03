@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&family=Raleway:ital,wght@0,700;1,400&display=swap");
+$color-1:hsl(243, 87%, 12%);
+$color-2:hsl(238, 22%, 44%);
+$color-3:hsl(224, 93%, 58%);
+$color-4:hsl(170, 45%, 43%);
+$color-5:hsl(240, 75%, 98%);
+$color-6:hsl(0, 0%, 75%);
+
+$large:768px;
+$small: 375px;
+
+  @mixin largeScreen {
+    @media (min-width: #{$large}) {
+      @content;
+    }
+  }
+  @mixin smallScreen {
+    @media (min-width: #{$small}) {
+      @content;
+    }
+  }
+
+body {
+  font-family: "Raleway", sans-serif;
+  font-family: "Open Sans", sans-serif;
+
+
+}
+.fs-7{
+    font-size: 15px;
+}
+.color-text{
+    color: $color-1;
+}
+.color-p{
+    color: $color-2;
+}
+.card-border{
+    border-color: white;
+   
+    @include smallScreen{
+      width: 100%;
+    }
+    @include largeScreen{
+      width: 75%;
+    }
+}
+.fx-col{
+    display: flex;
+    @include smallScreen{
+     flex-direction: column;
+    }
+    @include largeScreen{
+      flex-direction: row;
+    }
+
+    .width-email{
+    
+      @include smallScreen{
+        width: 100%;
+        
+      }
+      @include largeScreen{
+        width:50%;
+      }
+      
+    }
+    .width-button{
+      @include smallScreen{
+        width: 100%;
+      }
+      @include largeScreen{
+        width: 50%;
+      }
+    } 
+}
+#productive {
+  background: url("../images/bg-curve-desktop.svg") no-repeat center/cover;
+  height: 100%;
+
+  @include smallScreen{
+    background: url("../images/bg-curve-mobile.svg") no-repeat center/cover;
+  }
+  .img-avatar{
+    height: 50px;
+    width: 50px;
+
+    img{
+        border-radius: 50px;
+    }
+  }
+
+
+}
+#email {
+  background: hsl(238, 22%, 44%);
+
+  .width-100{
+    
+    @include smallScreen{
+      width: 100%;
+    }
+    @include largeScreen{
+      width: 75%;
+    }
+    
+  }
+  .width-75{
+    @include smallScreen{
+      width: 100%;
+    }
+    @include largeScreen{
+      width: 50%;
+    }
+  }
+}
+#footer {
+  background: hsl(243, 87%, 12%);
+}
+#footer svg {
+  fill: #fff;
+  color: #fff;
+}
