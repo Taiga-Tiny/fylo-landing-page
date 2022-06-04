@@ -92,6 +92,16 @@ body {
 
 
 }
+.fylo-text{
+  text-align: left;
+
+  @include smallScreen{
+    text-align: center;
+  }
+  @include largeScreen{
+    text-align: left;
+  }
+}
 #email {
   background: hsl(238, 22%, 44%);
 

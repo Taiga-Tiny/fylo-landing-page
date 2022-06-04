@@ -100,6 +100,22 @@ body {
   border-radius: 50px;
 }
 
+.fylo-text {
+  text-align: left;
+}
+
+@media (min-width: 375px) {
+  .fylo-text {
+    text-align: center;
+  }
+}
+
+@media (min-width: 768px) {
+  .fylo-text {
+    text-align: left;
+  }
+}
+
 #email {
   background: #585989;
 }
